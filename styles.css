@@ -6,25 +6,16 @@ body {
     font-family: 'Inter', sans-serif !important;
 }
 
-.body-context {
-    text-align: left;
+#about {
+  padding-top: 5rem;
 }
 
-.section-title {
-    text-align: left;
-}
 
 #hero {
     background-color: #F1F5F9 !important;
-    height: 100vh;
+    min-height: calc(100vh - 86px);
 }
 
-#about {
-    height: (100vh - 80px);
-    padding-top: 20rem;
-    align-items: center;
-    justify-content: center;
-}
 .navbar {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.02);
 }
@@ -32,6 +23,10 @@ body {
 .img-thumbnail {
     background-color: transparent !important;
     border: none !important;
+}
+
+.img-context {
+  width: 300px;
 }
 
 .my-logo {
@@ -57,7 +52,7 @@ body {
 
 .hero-sub {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 32px;
     line-height: 36px;
 }
@@ -88,8 +83,8 @@ body {
 
 a#scroll-btn {
     position: absolute;
-    height: 3.5em;
-    width: 1.7em;
+    height: 2.4em;
+    width: 1.5em;
     border: 3px solid #000000;
     margin: auto;
     left: 0;
@@ -105,18 +100,18 @@ a#scroll-btn {
     right: 0;
     top: .2em;
     height: .5em;
-    width: .5em;
+    width: .4em;
     background-color: #000000;
     border-radius: 50%;
-    animation: move-down 2s infinite;
+    animation: move-down 1.5s infinite;
   }
   @keyframes move-down {
     80% {
-      opacity: 0.5;
+      opacity: .7;
     }
     100% {
-      transform: translateY(2.2em);
-      opacity: 0;
+      transform: translateY(1.1em);
+      opacity: .3;
     }
   }
   a#scroll-btn:after {
@@ -145,7 +140,7 @@ a#scroll-btn {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 20px;
     z-index: 99;
     border: none;
     outline: none;
