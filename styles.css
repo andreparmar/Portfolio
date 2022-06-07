@@ -1,3 +1,5 @@
+/*Base HTML elements*/
+
 html {
     scroll-behavior: smooth;
 }
@@ -10,88 +12,103 @@ section {
   padding-top: 4.6rem;
 }
 
-.section-title {
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/*Bootstap Adjustments*/
+
+.img-thumbnail {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+/*Navigation Bar*/
+
+.navbar {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.02);
+}
+
+.navbar-nav > li{
+  padding-left:15px;
+  padding-right:15px;
+  }
+
+.navbar-brand img {
+  height: 60px;
+}
+
+.navbar .btn {
+  background: #171717 !important;
+  border-radius: 5px;
+  color: white !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.navbar .btn > i {
+font-size: 18px;
+}
+
+.navbar .btn:hover {
+  background: #252525 !important;
+}
+
+/*Hero Section*/
+
+#hero {
+  background-color: #F1F5F9 !important;
+  min-height: calc(100vh - 86px);
+}
+
+#hero .img-thumbnail {
+  max-width: 521px;
+    max-height: 509px;
+}
+
+#hero h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height:72px;
+  background: linear-gradient(90.06deg, #8669FB 0.08%, #84A6FF 101.94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#hero h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+#hero p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+section h4 {
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
 }
 
-.sub-section {
-  font-size: 20px;
-  font-weight: 400;
-}
-
-
-
-#hero {
-    background-color: #F1F5F9 !important;
-    min-height: calc(100vh - 86px);
-}
-
-.navbar {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.02);
-}
-
-.img-thumbnail {
-    background-color: transparent !important;
-    border: none !important;
-}
-
-.img-context {
+#about img {
   width: 300px;
 }
 
-.my-logo {
-    height: 60px !important;
-}
-
-.resume-btn {
-    background: #171717;
-    border-radius: 5px;
-    color: white;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-}
-.resume-btn:hover {
-    background: #252525;
-}
-
-.navbar-nav > li{
-  padding-left:15px;
-  padding-right:15px;
-}
-
-.hero-sub {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 36px;
-}
-
-.hero-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height:72px;
-    background: linear-gradient(90.06deg, #8669FB 0.08%, #84A6FF 101.94%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-}
-
-.hero-text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-}
-
-.hero-img {
-    max-width: 521px;
-    max-height: 509px;
+#skills img {
+  width: 300px;
 }
 
 a#scroll-btn {
@@ -142,9 +159,6 @@ a#scroll-btn {
     color: #000000;
     font-weight: 500;
   }
-  #about {
-    gap: 1em;
-  }
   @media screen and (max-width: 500px) {
     a#scroll-btn {
       font-size: 12px;
@@ -172,93 +186,4 @@ a#scroll-btn {
   
   #top-btn:hover {
     background-color: #2d2d32;
-  }
-
-  .section-img {
-    max-width: 285px;
-    max-height: 259px;
-  }
-
-  .section-title {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-  }
-
-  .contact-btn {
-    width: 150px;
-  }
-
-  .contact-icons {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .email-btn {
-    background-color: #fb7369;
-    color: white;
-  }
-
-  .email-btn:hover {
-    background-color: #fa857c;
-    color: white;
-  }
-
-  .linkedin-btn {
-    background-color: #6b69fb;
-    color: white;
-  }
-
-  .linkedin-btn:hover {
-    background-color: #8987fc;
-    color: white;
-  }
-
-  .work-img {
-    border-radius: 10px !important;
-  }
-
-  .col-lg-4 .btn {
-    position: absolute;
-    top: 86%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #18181b;
-    color: white;
-    font-size: 16px;
-    padding: 7px 20px;
-    border: none;
-    cursor: pointer;
-    opacity: 1;
-  }
-
-  .col-lg-4 .btn:hover {
-    background-color: #2d2d32;
-  }
-
-  .col-lg-4 .dribbble-btn {
-    position: absolute;
-    top: 86%;
-    left: 69%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #18181b;
-    color: white;
-    font-size: 16px;
-    padding: 7px 20px;
-    border: none;
-    cursor: pointer;
-    opacity: 1;
-  }
-
-  .dribbble-link {
-    text-decoration: none;
-    color: black;
-  }
-
-  .dribbble-link:hover {
-    color: #ea4c89;
-    text-decoration: none;
   }
