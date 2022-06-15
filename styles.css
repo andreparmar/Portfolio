@@ -3,6 +3,11 @@
 html, body {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none; // Safari and Chrome
 }
 
 
