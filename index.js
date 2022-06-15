@@ -1,6 +1,8 @@
 mybutton = document.getElementById("top-btn");
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+  scrollFunction();
+};
 
 function scrollFunction() {
   if (document.body.scrollTop > 86 || document.documentElement.scrollTop > 86) {
