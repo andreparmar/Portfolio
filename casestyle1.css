@@ -1,0 +1,270 @@
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  body {
+    font-family: "Poppins", sans-serif !important;
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
+  }
+  
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .img-thumbnail {
+    background-color: transparent !important;
+    border: none !important;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px !important;
+    line-height: 29px;
+    }
+    
+
+  #hero {
+    background-color:#BFDBFE !important;
+    min-height: calc(100vh - 200px);
+  }
+  
+  #hero h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    color: black;
+  }
+  
+  #hero h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 60px;
+  }
+  
+  #hero p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  a#scroll-btn {
+    position: absolute;
+    height: 2.4em;
+    width: 1.5em;
+    border: 3px solid #000000;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 16em;
+    border-radius: 3em;
+    text-align: center;
+  }
+  a#scroll-btn:before {
+    position: absolute;
+    content: "";
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0.2em;
+    height: 0.4em;
+    width: 0.4em;
+    background-color: #000000;
+    border-radius: 50%;
+    animation: move-down 1.5s infinite;
+    text-align: center;
+  }
+  
+  @keyframes move-down {
+    80% {
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateY(1.1em);
+      opacity: 0.1;
+    }
+  }
+  a#scroll-btn:after {
+    position: absolute;
+    font-family: "Poppins", sans-serif !important;
+    content: "Learn More";
+    display: block;
+    width: 7em;
+    text-align: center;
+    left: -3em;
+    bottom: -2em;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+  }
+  @media screen and (max-width: 500px) {
+    a#scroll-btn {
+      font-size: 12px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #18181b;
+    color: white;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 100px;
+    font-size: 24px;
+  }
+  
+  #top-btn:hover {
+    background-color: #2d2d32;
+  }
