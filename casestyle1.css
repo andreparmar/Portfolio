@@ -14,7 +14,42 @@ html, body {
     overscroll-behavior-y: none;
     overscroll-behavior-x: none;
   }
+
+  section {
+    padding-top: .2rem;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px !important;
+    line-height: 29px;
+  }
   
+  h2 {
+
+  }
+
+  h3 {
+
+  }
+
+  h4 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 60px;
+  }
+
+  h5 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  }
+
+  h6 {
+
+  }
+
   p {
     font-style: normal;
     font-weight: 400;
@@ -26,18 +61,19 @@ html, body {
     background-color: transparent !important;
     border: none !important;
   }
-
-  h1 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px !important;
-    line-height: 29px;
-    }
     
 
   #hero {
     background-color:#BFDBFE !important;
     min-height: calc(100vh - 200px);
+  }
+
+  #hero img {
+    height: 400px;
+  }
+
+  #row2 {
+    padding-top: 5rem !important;
   }
   
   #hero h4 {
@@ -60,12 +96,41 @@ html, body {
     font-size: 36px;
     line-height: 60px;
   }
+
+  #hero h6 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  }
   
   #hero p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  }
+
+  #research {
+    padding-top: 5rem;
+  }
+
+  #maps {
+    padding-top: 6.25rem;
+  }
+
+  #transcripts p {
+    font-style: italic;
+  }
+
+  .miro-direct {
+    padding-top: 65px;
+  }
+
+  .miro-logo {
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
   }
 
   a#scroll-btn {
@@ -76,7 +141,7 @@ html, body {
     margin: auto;
     left: 0;
     right: 0;
-    bottom: 16em;
+    bottom: 18em;
     border-radius: 3em;
     text-align: center;
   }
