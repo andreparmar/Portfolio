@@ -16,7 +16,23 @@ html, body {
   }
 
   section {
-    padding-top: .2rem;
+    padding-top: 3.15rem;
+    padding-bottom: 3.15rem;
+  }
+
+  .row {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
+    text-decoration: none;
   }
 
   h1 {
@@ -71,10 +87,6 @@ html, body {
   #hero img {
     height: 400px;
   }
-
-  #row2 {
-    padding-top: 5rem !important;
-  }
   
   #hero h4 {
     font-style: normal;
@@ -111,26 +123,36 @@ html, body {
   line-height: 36px;
   }
 
-  #research {
-    padding-top: 5rem;
+  #overview {
+    padding-top: 0px;
   }
 
-  #maps {
-    padding-top: 6.25rem;
+  #transcripts .row {
+    padding: 0px;
+  }
+
+  #transcripts {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
   }
 
   #transcripts p {
     font-style: italic;
   }
 
-  .miro-direct {
-    padding-top: 65px;
+  #transcripts span {
+    font-style: normal !important;
+    font-weight: 500;
   }
 
   .miro-logo {
     border-radius: 10px;
     width: 75px;
     height: 75px;
+  }
+
+  .container-fluid {
+    background-color: #F1F5F9;
   }
 
   a#scroll-btn {
@@ -187,33 +209,6 @@ html, body {
       font-size: 12px;
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
