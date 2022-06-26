@@ -16,13 +16,22 @@ html, body {
   }
 
   section {
-    padding-top: 3.15rem;
-    padding-bottom: 3.15rem;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  #begin {
+    padding: 0;
   }
 
   .row {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+
+  #begin .row {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
   }
 
   a {
@@ -60,6 +69,8 @@ html, body {
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   }
 
   h6 {
@@ -123,19 +134,6 @@ html, body {
   line-height: 36px;
   }
 
-  #overview {
-    padding-top: 0px;
-  }
-
-  #transcripts .row {
-    padding: 0px;
-  }
-
-  #transcripts {
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-  }
-
   #transcripts p {
     font-style: italic;
   }
@@ -145,14 +143,9 @@ html, body {
     font-weight: 500;
   }
 
-  .miro-logo {
-    border-radius: 10px;
-    width: 75px;
-    height: 75px;
-  }
-
-  .container-fluid {
-    background-color: #F1F5F9;
+  .map-contain {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   a#scroll-btn {
@@ -209,11 +202,6 @@ html, body {
       font-size: 12px;
     }
   }
-
-
-
-
-
 
 
 
