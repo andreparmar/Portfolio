@@ -1,0 +1,181 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h5 {
+    color: black;
+}
+
+section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.img-thumbnail {
+    background-color: transparent;
+    border: none;
+}
+
+#hero .row {
+  margin-top: 10%;
+}
+
+.jumbotron {
+    background-image: url(img/case2/img01.png);
+    min-width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px;
+    background-position: center;
+}
+
+.jumbotron p {
+  color: #ffffff;
+}
+
+#begin img {
+  background: url(image.png);
+  filter: drop-shadow(-3px 3px 6px rgba(0, 0, 0, 0.15));
+  border-radius: 5px;
+}
+
+.sol {
+  padding-top: 75px;
+}
+
+#interview ul {
+  list-style: none;
+  padding: 0px;
+}
+
+#interview li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#interview i {
+  font-size: 11px;
+  padding-right: 20px;
+}
+.p-list {
+  display: inline;
+}
+
+.p-cirlce-1 {
+  background-color: #4A85E8;
+}
+
+.p1 {
+  color: #4A85E8;
+}
+
+.p2 {
+  color: #C27BA0;
+}
+
+.p3 {
+  color: #E69138;
+}
+
+.p4 {
+  color: #6AA84F;
+}
+
+.p5 {
+  color: #7F6001;
+}
+
+.p6 {
+  color: #674EA7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a#scroll-btn {
+    position: absolute;
+    height: 2.4em;
+    width: 1.5em;
+    border: 3px solid #ffffff;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 10em;
+    border-radius: 3em;
+    text-align: center;
+  }
+  a#scroll-btn:before {
+    position: absolute;
+    content: "";
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0.2em;
+    height: 0.4em;
+    width: 0.4em;
+    background-color: #ffffff;
+    border-radius: 50%;
+    animation: move-down 1.5s infinite;
+    text-align: center;
+  }
+  
+  @keyframes move-down {
+    80% {
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateY(1.1em);
+      opacity: 0.1;
+    }
+  }
+  a#scroll-btn:after {
+    position: absolute;
+    font-family: "Poppins", sans-serif !important;
+    content: "Learn More";
+    display: block;
+    width: 7em;
+    text-align: center;
+    left: -3em;
+    bottom: -2em;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  @media screen and (max-width: 500px) {
+    a#scroll-btn {
+      font-size: 12px;
+    }
+  }
